@@ -1,0 +1,3 @@
+FROM diamol/grafana
+COPY dasboard.yml ${GF_PATHS_PROVISIONING}/dashboards/
+COPY prometheus.yml ${GF_PATHS_PROVISIONING}/dashboards/
